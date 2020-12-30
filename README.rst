@@ -1,6 +1,6 @@
 .. _blinky-sample:
 
-Zephyr Demo driver for `Macromix` Nor Flash `mx25r6435f` and `stm32l4xx`, `stm32l4s5vitx`
+Zephyr demo driver for `Macromix` Nor Flash `mx25r6435f` and `stm32l4xx`, `stm32l4s5vitx`
 
 Overview
 ********
