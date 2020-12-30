@@ -6,8 +6,6 @@ Overview
 ********
 
 This module is a working in progress for a driver of Macromix ``mx25r6435f`` present in the board ``STM32L4+ Discovery kit IoT`` ``B-L4S5I-IOT01A``
-`<https://www.macronix.com/en-us/products/NOR-Flash/Serial-NOR-Flash/Pages/spec.aspx?p=MX25R6435F&m=Serial%20NOR%20Flash&n=PM2138>`
-`<https://www.macronix.com/en-us/products/NOR-Flash/Serial-NOR-Flash/Pages/spec.aspx?p=MX25R6435F&m=Serial%20NOR%20Flash&n=PM2138>`
 
 State
 ******
