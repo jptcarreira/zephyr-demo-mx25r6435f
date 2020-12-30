@@ -71,9 +71,6 @@ Usage
 	}
 
 
-
-.. image:: https://raw.githubusercontent.com/jptcarreira/zephyr-demo-wifi/master/zephyr-wifi-demo.png
-
 Requirements
 ************
 
