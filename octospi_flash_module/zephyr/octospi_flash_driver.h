@@ -14,21 +14,9 @@ extern "C" {
 
 #include <device.h>
 
-/*
- * This 'Hello World' driver has a 'print' syscall that prints the
- * famous 'Hello World!' string.
- *
- * The string is formatted with some internal driver data to
- * demonstrate that drivers are initialized during the boot process.
- *
- * The driver exists to demonstrate (and test) custom drivers that are
- * maintained outside of Zephyr.
- */
+
 __subsystem struct octospi_flash_driver_api {
-	/* This struct has a member called 'print'. 'print' is function
-	 * pointer to a function that takes 'struct device *dev' as an
-	 * argument and returns 'void'.
-	 */
+
 	void (*erase_sector)(const struct device *dev, uint32_t sector );
 	void (*read)(const struct device *dev, uint32_t sector, uint8_t* buf, uint32_t length );
 	void (*write)(const struct device *dev, uint32_t sector, const uint8_t* buf, uint32_t length );
