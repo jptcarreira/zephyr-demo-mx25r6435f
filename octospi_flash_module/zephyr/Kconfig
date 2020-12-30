@@ -1,0 +1,12 @@
+# Author: Joao Carreira
+# SPDX-License-Identifier: Apache-2.0
+
+
+config USE_STM32_OSPI
+     default y
+     bool
+     select USE_STM32_HAL_OSPI
+     select USE_STM32_HAL_GPIO
+
+config OCTOSPI_FLASH_DRIVER
+	bool "Enable OCTOSPO Flash driver for MX25R6435F"
