@@ -22,6 +22,8 @@ Usage
 ********
 
 .. code-block:: none
+
+
 	#include <zephyr.h>
 	#include "octospi_flash_driver.h"
 	
