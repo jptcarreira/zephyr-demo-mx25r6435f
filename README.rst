@@ -86,7 +86,7 @@ Building and Running
 Build and flash Zephyr Image:
 
 .. zephyr-app-commands::
-   :zephyr-app: szephyr-demo-wifi
+   :zephyr-app: szephyr-demo-mx25r6435f
    :board: b_l4s5i_iot01a
    :goals: build flash
    :compact:
